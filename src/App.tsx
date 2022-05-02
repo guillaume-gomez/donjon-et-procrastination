@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import logo from "./LOGO_1.png";
-import subtitle from "./LOGO_2.png";
+import logo from "./images/LOGO_1.png";
+import subtitle from "./images/LOGO_2.png";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <main className="body-container">
           <img src={logo} />
           <img src={subtitle} />
+
       </main>
     </div>
   );
