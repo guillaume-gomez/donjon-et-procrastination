@@ -1,1 +1,3 @@
-Generator.css
+#generator-container {
+  display: flex;
+}

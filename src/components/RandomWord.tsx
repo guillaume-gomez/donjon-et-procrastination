@@ -1,11 +1,14 @@
 import React from 'react';
 import "./RandomWord.css"
 
-function RandomWord() {
+interface RandomWordProps {
+  word: string;
+}
+
+function RandomWord({word} : RandomWordProps) {
   return (
     <div id="random-word-container">
-      
-
+      {word}
     </div>
   );
 }

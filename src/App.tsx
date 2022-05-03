@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import logo from "./images/LOGO_1.png";
 import subtitle from "./images/LOGO_2.png";
+import Generator from "./components/Generator";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <main className="body-container">
           <img src={logo} />
           <img src={subtitle} />
-
+          <Generator />
       </main>
     </div>
   );
