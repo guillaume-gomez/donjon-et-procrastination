@@ -1,5 +1,6 @@
 import React from 'react';
-import "./RandomWord.css"
+import "./Button.scss";
+import logo from "../images/button_image.png";
 
 interface ButtondProps {
   onClick: () => void;
@@ -7,8 +8,8 @@ interface ButtondProps {
 
 function Button({onClick} : ButtondProps) {
   return (
-    <button id="button-container">
-        Generate
+    <button id="button-container" className="pixel-borders pixel-borders-custom" onClick={onClick}>
+        <img src={logo}/>
     </button>
   );
 }

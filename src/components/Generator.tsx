@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { sample } from "lodash";
 import "./Generator.css";
 import RandomWord from "./RandomWord";
@@ -6,17 +6,23 @@ import Button from "./Button";
 
 function mockRandomWord(): string {
   const words = ["lorem", "ispum", "opafk", "jfd", "fdljdjdjkf", "flg"];
-  return sample(words);
+  return sample(words) as string;
 }
 
 function Generator() {
-  const randomWords = ["Un", "Dinosaure", "necromancien", "sale", "avec", "un", "fleuret"]
+  const [words, setWords] = useState<string[]>(["Un", "Dinosaure", "necromancien", "sale", "avec", "un", "fleuret"]);
+
+  function generate() {
+    const newWords = words.map(_ => mockRandomWord());
+    setWords(newWords);
+  }
+
   return (
     <div id="generator-container">
-      <div id="words-container">
-        {randomWords.map(word => <RandomWord word={word} />)}
+      <div id="words-container" className="">
+        {words.map((word, index) => <RandomWord key={index} word={word} />)}
       </div>
-      <Button onClick={() => console.log("clicked")} />
+      <Button onClick={generate} />
     </div>
   );
 }

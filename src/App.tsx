@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import logo from "./images/LOGO_1.png";
 import subtitle from "./images/LOGO_2.png";
 import Generator from "./components/Generator";

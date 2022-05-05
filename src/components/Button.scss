@@ -1,0 +1,6 @@
+@import "node_modules/pixel-borders/src/styles/pixel-borders.scss";
+
+.pixel-borders-custom {
+  color: #fff;
+  @include pixel-box($corner-size: 1, $border-size: 4px, $background-color: #b7291d, $border-color: #ffa46d, $border-inset-color: #8c5634);
+}
