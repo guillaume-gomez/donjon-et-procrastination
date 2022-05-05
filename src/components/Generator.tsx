@@ -1,5 +1,5 @@
 import React from 'react';
-import sample from "lodash";
+import { sample } from "lodash";
 import "./Generator.css";
 import RandomWord from "./RandomWord";
 import Button from "./Button";
