@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <motion.div
         animate={{ y: ["1px", "4px", "10px"] }}
-        style={{position: "absolute", width: "100%", height: "99%", zIndex:-1 }}
+        style={{position: "absolute", width: "100%", height: "100%", zIndex:-1 }}
         transition={{
           duration: 2,
           yoyo: Infinity,
