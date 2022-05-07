@@ -1,5 +1,12 @@
 import React, { useState } from 'react';
 import { sample } from "lodash";
+import {
+  PronoumColumn,
+  ClassColumn,
+  RaceColumn,
+  CaracteristicsColumn,
+  SpecialItemColumn
+} from "../dictionnary";
 import "./Generator.css";
 import RandomWord from "./RandomWord";
 import Button from "./Button";
@@ -9,11 +16,24 @@ function mockRandomWord(): string {
   return sample(words) as string;
 }
 
+function pickRandomItem(list: string[]) : string {
+  return sample(list) as string;
+}
+
+
 function Generator() {
-  const [words, setWords] = useState<string[]>(["Un", "Dinosaure", "necromancien", "sale", "avec", "un", "fleuret"]);
+  const [words, setWords] = useState<string[]>(["Un", "Dinosaure", "necromancien", "sale", "avec", "un fleuret"]);
+
 
   function generate() {
-    const newWords = words.map(_ => mockRandomWord());
+    const newWords = [
+      pickRandomItem(PronoumColumn),
+      pickRandomItem(ClassColumn),
+      pickRandomItem(RaceColumn),
+      pickRandomItem(CaracteristicsColumn),
+      "avec",
+      pickRandomItem(SpecialItemColumn)
+    ]
     setWords(newWords);
   }
 
