@@ -8,6 +8,9 @@ import { motion } from "framer-motion";
 function App() {
   return (
     <div className="App">
+      <div className="background-castle" />
+      <div className="background-cloud1" />
+      <div className="background-cloud2" />
       <header className="App-header">
       </header>
       <main className="body-container">
@@ -28,6 +31,11 @@ function App() {
             </motion.div>
           </div>
           <Generator />
+          <div className="footer">
+            Générateur d'idées "Donjon & Procrastination" par
+            <a href="https://www.instagram.com/pomyad/">Pomyad</a> et
+            <a href="https://github.com/guillaume-gomez">Guillaume Gomez</a>
+          </div>
       </main>
     </div>
   );
