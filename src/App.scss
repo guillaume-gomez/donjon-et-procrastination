@@ -1,9 +1,15 @@
+.main-container {
+  margin: auto;
+  max-width: 80%;
+}
+
 .body-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3rem
+  gap: 3rem;
+  padding: 2rem;
 }
 
 .logo-container {
@@ -11,10 +17,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 50%
 }
 
 .footer {
-  color: #c88f74
+  //border: 2px solid blue;
+  text-align: center;
+  color: #c88f74;
 }
 
 .background-castle {
