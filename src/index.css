@@ -19,6 +19,7 @@ body {
   background: var(--brown);
   background-image: url("./images/background.png");
   //overflow: hidden;
+  line-height: 1.5rem;
 }
 
 code {
