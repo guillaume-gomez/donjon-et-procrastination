@@ -8,19 +8,21 @@ import { motion } from "framer-motion";
 function App() {
   return (
     <div className="App">
-        <motion.div
-          animate={{ y: ["1px", "4px", "10px"] }}
-          style={{position: "absolute", width: "100%", height: "100%", zIndex:-1 }}
-          transition={{
-            duration: 2,
-            yoyo: Infinity,
-            ease: "easeOut"
-          }}
-        >
-          <div className="background-castle" />
-        </motion.div>
-        <div className="background-cloud1" />
-        <div className="background-cloud2" />
+        <div id="images">
+          <motion.div
+            animate={{ y: ["1px", "4px", "10px"] }}
+            style={{position: "absolute", width: "100%", height: "100%", zIndex:-1 }}
+            transition={{
+              duration: 2,
+              yoyo: Infinity,
+              ease: "easeOut"
+            }}
+          >
+            <div className="background-castle" />
+          </motion.div>
+          <div className="background-cloud1" />
+          <div className="background-cloud2" />
+        </div>
       <div className="main-container">
         <header className="App-header">
         </header>
