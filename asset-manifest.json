@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dungeon-and-procrastination/static/css/main.2afaa9f1.css",
-    "main.js": "/dungeon-and-procrastination/static/js/main.d8c62eb0.js",
+    "main.css": "/dungeon-and-procrastination/static/css/main.295e4139.css",
+    "main.js": "/dungeon-and-procrastination/static/js/main.0a19cf3e.js",
     "static/media/dogicapixel.ttf": "/dungeon-and-procrastination/static/media/dogicapixel.6d7dac533280cad5fa55.ttf",
     "static/media/background-02.png": "/dungeon-and-procrastination/static/media/background-02.46a4717ecbf41f507947.png",
     "static/media/background-01.png": "/dungeon-and-procrastination/static/media/background-01.87ccf58f8f560272c88b.png",
@@ -9,11 +9,11 @@
     "static/media/background.png": "/dungeon-and-procrastination/static/media/background.8ad73062a7b61cb564e1.png",
     "static/media/button_image.png": "/dungeon-and-procrastination/static/media/button_image.66869b19d7e94caca55a.png",
     "index.html": "/dungeon-and-procrastination/index.html",
-    "main.2afaa9f1.css.map": "/dungeon-and-procrastination/static/css/main.2afaa9f1.css.map",
-    "main.d8c62eb0.js.map": "/dungeon-and-procrastination/static/js/main.d8c62eb0.js.map"
+    "main.295e4139.css.map": "/dungeon-and-procrastination/static/css/main.295e4139.css.map",
+    "main.0a19cf3e.js.map": "/dungeon-and-procrastination/static/js/main.0a19cf3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2afaa9f1.css",
-    "static/js/main.d8c62eb0.js"
+    "static/css/main.295e4139.css",
+    "static/js/main.0a19cf3e.js"
   ]
 }
