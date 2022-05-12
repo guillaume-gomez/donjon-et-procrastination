@@ -11,3 +11,9 @@
   display: flex;
   border:2px solid #ababab;
 }
+
+@media only screen and (max-width: 768px) {
+  #words-container {
+    flex-direction: column;
+  }
+}

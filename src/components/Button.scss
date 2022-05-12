@@ -4,3 +4,10 @@
   color: #fff;
   @include pixel-box($corner-size: 1, $border-size: 4px, $background-color: #b7291d, $border-color: #ffa46d, $border-inset-color: #8c5634);
 }
+
+
+@media only screen and (max-width: 768px) {
+  #imageLogo {
+    width: 100px;
+  }
+}

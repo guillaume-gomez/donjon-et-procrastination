@@ -5,3 +5,9 @@
     border: 4px solid #a85d33;
     font-size: 30px;
 }
+
+@media only screen and (max-width: 768px) {
+  #random-word-container {
+    font-size: 14px;
+  }
+}

@@ -9,7 +9,7 @@ interface ButtondProps {
 function Button({onClick} : ButtondProps) {
   return (
     <button id="button-container" className="pixel-borders pixel-borders-custom" onClick={onClick}>
-        <img src={logo}/>
+        <img src={logo} id="imageLogo"/>
     </button>
   );
 }

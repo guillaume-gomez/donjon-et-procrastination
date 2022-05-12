@@ -18,7 +18,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: var(--brown);
   background-image: url("./images/background.png");
-  overflow: hidden;
+  //overflow: hidden;
 }
 
 code {

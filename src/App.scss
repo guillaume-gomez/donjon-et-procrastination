@@ -50,5 +50,11 @@
     width: 100%;
     height: 100%;
     background-image: url("./images/background-03.png");
+}
 
+
+@media only screen and (max-width: 768px) {
+  .logo-container {
+    max-width: 100%
+  }
 }
