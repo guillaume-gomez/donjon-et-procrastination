@@ -11,11 +11,6 @@ import "./Generator.css";
 import RandomWord from "./RandomWord";
 import Button from "./Button";
 
-function mockRandomWord(): string {
-  const words = ["lorem", "ispum", "opafk", "jfd", "fdljdjdjkf", "flg"];
-  return sample(words) as string;
-}
-
 function pickRandomItem(list: string[]) : string {
   return sample(list) as string;
 }
