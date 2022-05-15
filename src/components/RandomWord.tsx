@@ -24,17 +24,25 @@ function RandomWord({ word, position } : RandomWordProps) {
   }, [word, controls])
 
   return (
-    <motion.div id="random-word-container"
-          animate={controls}
-          initial="initial"
-          transition={
-            { delay: position * 0.25, duration: 1, ease: 'easeOut' }
-          }
-          variants={{
-            roll: { rotateX: 360 * 5  }
-          }}
-          >
-        {word}
+    <motion.div id="random-word-container">
+        {
+          word.split("").map((letter, index) => {
+            return (
+              <motion.span
+                animate={controls}
+                initial="initial"
+                transition={
+                  { delay: position * 0.25 * (index *0.1), duration: 1, ease: 'easeOut' }
+                }
+                variants={{
+                  roll: { rotateX: 360 * 5  }
+                }}
+              >
+              {letter}
+              </motion.span>
+            );
+          })
+        }
     </motion.div>
   );
 }
