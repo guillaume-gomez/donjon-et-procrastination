@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { motion, useAnimation } from "framer-motion";
 import "./RandomWord.css"
 
@@ -7,13 +7,13 @@ interface RandomWordProps {
   position: number
 }
 
-function fromWordToThinking(word: string) {
+/*function fromWordToThinking(word: string) {
   const array = word.split("");
   return array
     .map(() => ".")
     .join('')
     .toString();
-}
+}*/
 
 function RandomWord({ word, position } : RandomWordProps) {
   const controls = useAnimation();
@@ -21,7 +21,7 @@ function RandomWord({ word, position } : RandomWordProps) {
     controls.start('roll').then(() => {
       controls.set({rotateX: 0})
     })
-  }, [word])
+  }, [word, controls])
 
   return (
     <motion.div id="random-word-container"
