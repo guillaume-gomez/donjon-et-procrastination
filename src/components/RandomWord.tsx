@@ -12,7 +12,7 @@ function RandomWord({ word } : RandomWordProps) {
     controls.start('roll').then(() => {
       controls.set({rotateX: 0})
     })
-  }, [controls])
+  }, [controls, word])
 
   return (
     <motion.div id="random-word-container">

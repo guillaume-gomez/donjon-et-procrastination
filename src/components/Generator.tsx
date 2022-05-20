@@ -5,7 +5,8 @@ import {
   ClassColumn,
   RaceColumn,
   CaracteristicsColumn,
-  SpecialItemColumn
+  SpecialItemColumn,
+  WithColumn
 } from "../dictionnary";
 import "./Generator.css";
 import RandomWord from "./RandomWord";
@@ -26,7 +27,7 @@ function Generator() {
       pickRandomItem(ClassColumn),
       pickRandomItem(RaceColumn),
       pickRandomItem(CaracteristicsColumn),
-      "avec",
+      pickRandomItem(WithColumn),
       pickRandomItem(SpecialItemColumn)
     ]
     setWords(newWords);

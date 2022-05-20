@@ -283,3 +283,9 @@ export const SpecialItemColumn = [
     "Une théière ",
     "Un feu de camps",
     ];
+
+export const WithColumn = [
+    "avec",
+    " avec ",
+    "avec ",
+];
