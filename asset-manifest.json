@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/dungeon-and-procrastination/static/css/main.4242b307.css",
-    "main.js": "/dungeon-and-procrastination/static/js/main.162cbcbb.js",
-    "static/media/dogicapixel.ttf": "/dungeon-and-procrastination/static/media/dogicapixel.6d7dac533280cad5fa55.ttf",
-    "static/media/background-02.png": "/dungeon-and-procrastination/static/media/background-02.46a4717ecbf41f507947.png",
-    "static/media/background-01.png": "/dungeon-and-procrastination/static/media/background-01.87ccf58f8f560272c88b.png",
-    "static/media/background-03.png": "/dungeon-and-procrastination/static/media/background-03.78c394443a6d34502483.png",
-    "static/media/background.png": "/dungeon-and-procrastination/static/media/background.8ad73062a7b61cb564e1.png",
-    "static/media/button_image.png": "/dungeon-and-procrastination/static/media/button_image.66869b19d7e94caca55a.png",
-    "index.html": "/dungeon-and-procrastination/index.html",
-    "main.4242b307.css.map": "/dungeon-and-procrastination/static/css/main.4242b307.css.map",
-    "main.162cbcbb.js.map": "/dungeon-and-procrastination/static/js/main.162cbcbb.js.map"
+    "main.css": "/dunjon-et-procrastination/static/css/main.be00d36f.css",
+    "main.js": "/dunjon-et-procrastination/static/js/main.16c1df67.js",
+    "static/media/dogicapixel.ttf": "/dunjon-et-procrastination/static/media/dogicapixel.6d7dac533280cad5fa55.ttf",
+    "static/media/background-02.png": "/dunjon-et-procrastination/static/media/background-02.46a4717ecbf41f507947.png",
+    "static/media/background-01.png": "/dunjon-et-procrastination/static/media/background-01.87ccf58f8f560272c88b.png",
+    "static/media/background-03.png": "/dunjon-et-procrastination/static/media/background-03.78c394443a6d34502483.png",
+    "static/media/background.png": "/dunjon-et-procrastination/static/media/background.8ad73062a7b61cb564e1.png",
+    "static/media/button_image.png": "/dunjon-et-procrastination/static/media/button_image.66869b19d7e94caca55a.png",
+    "index.html": "/dunjon-et-procrastination/index.html",
+    "main.be00d36f.css.map": "/dunjon-et-procrastination/static/css/main.be00d36f.css.map",
+    "main.16c1df67.js.map": "/dunjon-et-procrastination/static/js/main.16c1df67.js.map"
   },
   "entrypoints": [
-    "static/css/main.4242b307.css",
-    "static/js/main.162cbcbb.js"
+    "static/css/main.be00d36f.css",
+    "static/js/main.16c1df67.js"
   ]
 }
