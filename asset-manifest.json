@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dunjon-et-procrastination/static/css/main.be00d36f.css",
-    "main.js": "/dunjon-et-procrastination/static/js/main.16c1df67.js",
+    "main.js": "/dunjon-et-procrastination/static/js/main.edd99ff9.js",
     "static/media/dogicapixel.ttf": "/dunjon-et-procrastination/static/media/dogicapixel.6d7dac533280cad5fa55.ttf",
     "static/media/background-02.png": "/dunjon-et-procrastination/static/media/background-02.46a4717ecbf41f507947.png",
     "static/media/background-01.png": "/dunjon-et-procrastination/static/media/background-01.87ccf58f8f560272c88b.png",
@@ -10,10 +10,10 @@
     "static/media/button_image.png": "/dunjon-et-procrastination/static/media/button_image.66869b19d7e94caca55a.png",
     "index.html": "/dunjon-et-procrastination/index.html",
     "main.be00d36f.css.map": "/dunjon-et-procrastination/static/css/main.be00d36f.css.map",
-    "main.16c1df67.js.map": "/dunjon-et-procrastination/static/js/main.16c1df67.js.map"
+    "main.edd99ff9.js.map": "/dunjon-et-procrastination/static/js/main.edd99ff9.js.map"
   },
   "entrypoints": [
     "static/css/main.be00d36f.css",
-    "static/js/main.16c1df67.js"
+    "static/js/main.edd99ff9.js"
   ]
 }
