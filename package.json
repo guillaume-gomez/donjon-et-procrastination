@@ -1,7 +1,7 @@
 {
-  "name": "dunjon-et-procrastination",
+  "name": "donjon-et-procrastination",
   "version": "0.1.0",
-  "homepage": "https://guillaume-gomez.github.io/dunjon-et-procrastination",
+  "homepage": "https://guillaume-gomez.github.io/donjon-et-procrastination",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
