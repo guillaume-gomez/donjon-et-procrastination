@@ -45,9 +45,15 @@ function App() {
             </div>
             <Generator />
             <div className="footer">
-              Générateur d'idées "Donjon & Procrastination" par
-              <a href="https://www.instagram.com/pomyad/">Pomyad</a> et
-              <a href="https://github.com/guillaume-gomez">Guillaume Gomez</a>
+              <div>
+                Partage tes créations avec le htag
+                <a href="https://www.instagram.com/explore/tags/donjonetprocrastination/">#donjonetprocrastination</a>
+              </div>
+              <div>
+                Générateur d'idées "Donjon & Procrastination" par
+                <a href="https://www.instagram.com/pomyad/">Pomyad</a> et
+                <a href="https://github.com/guillaume-gomez">Guillaume Gomez</a>
+              </div>
             </div>
         </main>
       </div>

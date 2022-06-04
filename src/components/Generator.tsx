@@ -35,7 +35,7 @@ function Generator() {
 
   return (
     <div id="generator-container">
-      <div id="words-container" className="">
+      <div id="words-container">
         {words.map((word, index) => <RandomWord key={index} word={word} />)}
       </div>
       <Button onClick={generate} />

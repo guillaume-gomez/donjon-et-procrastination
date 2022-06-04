@@ -284,6 +284,7 @@ export const SpecialItemColumn = [
     "Un feu de camps",
     ];
 
+// quick fix to refresh 'with' in french
 export const WithColumn = [
     "avec",
     " avec ",

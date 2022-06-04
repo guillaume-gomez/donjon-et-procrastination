@@ -21,6 +21,9 @@
 }
 
 .footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
   //border: 2px solid blue;
   text-align: center;
   color: #c88f74;
