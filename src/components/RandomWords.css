@@ -1,0 +1,24 @@
+#random-words-container {
+    padding: 1rem;
+    color: #76321b;
+    background: #ffd392;
+    border: 4px solid #a85d33;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:  0.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+  #random-words-container {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  #random-words-container {
+    font-size: 20px;
+  }
+}

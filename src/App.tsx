@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 function App() {
   return (
-    <div className="App">
+    <div className="jbfjk">
         <div id="images">
           <motion.div
             animate={{ y: ["1px", "4px", "10px"] }}
@@ -44,18 +44,18 @@ function App() {
               </motion.div>
             </div>
             <Generator />
-            <div className="footer">
-              <div>
-                Partage tes créations avec le htag
-                <a href="https://www.instagram.com/explore/tags/donjonetprocrastination/">#donjonetprocrastination</a>
-              </div>
-              <div>
-                Générateur d'idées "Donjon & Procrastination" par
-                <a href="https://www.instagram.com/pomyad/">Pomyad</a> et
-                <a href="https://github.com/guillaume-gomez">Guillaume Gomez</a>
-              </div>
-            </div>
         </main>
+        <div className="footer">
+          <div>
+            Partage tes créations avec le htag
+            <a href="https://www.instagram.com/explore/tags/donjonetprocrastination/">#donjonetprocrastination</a>
+          </div>
+          <div>
+            Générateur d'idées "Donjon & Procrastination" par
+            <a href="https://www.instagram.com/pomyad/">Pomyad</a> et
+            <a href="https://github.com/guillaume-gomez">Guillaume Gomez</a>
+          </div>
+        </div>
       </div>
     </div>
   );

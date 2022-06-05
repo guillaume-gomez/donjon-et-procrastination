@@ -9,7 +9,7 @@ import {
   WithColumn
 } from "../dictionnary";
 import "./Generator.css";
-import RandomWord from "./RandomWord";
+import RandomWords from "./RandomWords";
 import Button from "./Button";
 
 function pickRandomItem(list: string[]) : string {
@@ -36,7 +36,7 @@ function Generator() {
   return (
     <div id="generator-container">
       <div id="words-container">
-        {words.map((word, index) => <RandomWord key={index} word={word} />)}
+        {words.map((word, index) => <RandomWords key={index} words={word} />)}
       </div>
       <Button onClick={generate} />
     </div>
