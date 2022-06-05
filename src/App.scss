@@ -1,7 +1,13 @@
+.App {
+  //border: 2px solid blue;
+
+}
+
 .main-container {
-  margin: auto;
-  max-width: 90%;
-  border: 2px solid red;
+  //border: 2px solid red;
+  //height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .body-container {
@@ -11,7 +17,10 @@
   align-items: center;
   gap: 3rem;
   padding: 2rem;
-  border: 2px solid green;
+  //border: 2px solid purple;
+  max-width: 90%;
+  height: 50%;
+  margin: auto
 }
 
 .logo-container {
@@ -28,10 +37,11 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  border: 2px solid blue;
-  color: #c88f74;
-  width: 100%;
+  border: 4px solid #a85d33;
+  color: #76321b;
   word-break: break-word;
+  background: #ffd392;
+  padding: 1rem 1rem;
 }
 
 .background-castle {

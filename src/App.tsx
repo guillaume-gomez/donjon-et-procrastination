@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 
 function App() {
   return (
-    <div className="jbfjk">
-        <div id="images">
+    <div className="App">
+      <div id="images">
           <motion.div
             animate={{ y: ["1px", "4px", "10px"] }}
             style={{position: "absolute", width: "100%", height: "100%", zIndex:-1 }}
@@ -22,10 +22,8 @@ function App() {
           </motion.div>
           <div className="background-cloud1" />
           <div className="background-cloud2" />
-        </div>
+      </div>
       <div className="main-container">
-        <header className="App-header">
-        </header>
         <main className="body-container">
             <div className="logo-container">
               <motion.div
@@ -46,15 +44,15 @@ function App() {
             <Generator />
         </main>
         <div className="footer">
-          <div>
-            Partage tes créations avec le htag
-            <a href="https://www.instagram.com/explore/tags/donjonetprocrastination/">#donjonetprocrastination</a>
-          </div>
-          <div>
-            Générateur d'idées "Donjon & Procrastination" par
-            <a href="https://www.instagram.com/pomyad/">Pomyad</a> et
-            <a href="https://github.com/guillaume-gomez">Guillaume Gomez</a>
-          </div>
+            <div>
+              Partage tes créations avec le htag
+              <a href="https://www.instagram.com/explore/tags/donjonetprocrastination/">#donjonetprocrastination</a>
+            </div>
+            <div>
+              Générateur d'idées "Donjon & Procrastination" par
+              <a href="https://www.instagram.com/pomyad/">Pomyad</a> et
+              <a href="https://github.com/guillaume-gomez">Guillaume Gomez</a>
+            </div>
         </div>
       </div>
     </div>
