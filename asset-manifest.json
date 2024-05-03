@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/donjon-et-procrastination/static/css/main.093a830f.css",
-    "main.js": "/donjon-et-procrastination/static/js/main.f5b4d088.js",
+    "main.css": "/donjon-et-procrastination/static/css/main.1d5d523e.css",
+    "main.js": "/donjon-et-procrastination/static/js/main.d2c30535.js",
     "static/media/dogicapixel.ttf": "/donjon-et-procrastination/static/media/dogicapixel.6d7dac533280cad5fa55.ttf",
     "static/media/background-02.png": "/donjon-et-procrastination/static/media/background-02.46a4717ecbf41f507947.png",
     "static/media/background-01.png": "/donjon-et-procrastination/static/media/background-01.87ccf58f8f560272c88b.png",
@@ -9,11 +9,11 @@
     "static/media/background.png": "/donjon-et-procrastination/static/media/background.8ad73062a7b61cb564e1.png",
     "static/media/button_image.png": "/donjon-et-procrastination/static/media/button_image.66869b19d7e94caca55a.png",
     "index.html": "/donjon-et-procrastination/index.html",
-    "main.093a830f.css.map": "/donjon-et-procrastination/static/css/main.093a830f.css.map",
-    "main.f5b4d088.js.map": "/donjon-et-procrastination/static/js/main.f5b4d088.js.map"
+    "main.1d5d523e.css.map": "/donjon-et-procrastination/static/css/main.1d5d523e.css.map",
+    "main.d2c30535.js.map": "/donjon-et-procrastination/static/js/main.d2c30535.js.map"
   },
   "entrypoints": [
-    "static/css/main.093a830f.css",
-    "static/js/main.f5b4d088.js"
+    "static/css/main.1d5d523e.css",
+    "static/js/main.d2c30535.js"
   ]
 }
